@@ -12,7 +12,7 @@ header{
   color:#ffffff;
   margin:20px;
   text-align: center;
-  text-shadow: black 0 0 0.1em;
+  text-shadow: black 0 0 0.05em;
 }
 main{
   width: 800px;
@@ -21,13 +21,25 @@ main{
 .card{
   width:180px;
   height: 200px;
-  border:1px solid black;
   border-radius: 15px;
   position:relative;
   display:inline-block;
   background-color: #ffffff;
   margin: 8px;
+  box-shadow: black 0 0 0.2em;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
 }
 .row{
   margin-bottom: 15px;
+}
+
+.card img:first-of-type{
+  max-width: 100%;
+  padding:15px 25px 0px 25px;
+}
+.card h2{
+  color:#e61986;
+  text-align: center;
+  font-size: 30px;
 }
